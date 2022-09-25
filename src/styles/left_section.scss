@@ -1,0 +1,128 @@
+.left_section {
+  max-width: 356px;
+  background-color: #F7F9FC;
+
+  .left_wrapper {
+    padding: 50px;
+
+    .info_section {
+
+      #img_resume {
+        display: block;
+        width: 100px;
+        height: 100px;
+        background-color: aquamarine;
+        border-radius: 50px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: ceexperiencenter;
+        box-shadow: 0px 0px 17px -4px rgba(0, 0, 0, 0.58);
+
+      }
+
+      .name {
+        display: inline-block;
+        font-family: 'Amatic SC', cursive;
+        font-weight: 500;
+        color: #2E2E48;
+        font-size: 32px;
+        margin-top: 16px;
+        margin-bottom: 22px;
+      }
+
+      .about_me {
+        line-height: 24px;
+        color: $gray;
+        font-weight: 400;
+        font-size: 15px;
+        font-family: 'Rubik', sans-serif;
+      }
+    }
+  }
+
+
+  .email {
+    .img_email {
+      width: 20px;
+      height: 20px;
+      background: #E2E6EE;
+      border-radius: 30px;
+      padding: 6px;
+
+      &::after {
+        content: var(--var_icon_email);
+      }
+    }
+
+  }
+
+  .social_links {
+
+    .social_wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 22px;
+
+      .block_decor {
+        box-shadow: 16px 0px 14px -12px rgba(39, 36, 36, 0.58);
+        border-radius: 40px;
+      }
+    }
+  }
+
+  .languages {
+    .wrapper_languages {
+
+      .block_decor {
+        span {
+          color: #47516B;
+          font-size: 14px;
+
+
+          &+span {
+            color: #79819A;
+            font-size: 12px;
+
+          }
+        }
+      }
+    }
+  }
+
+  .hobbies {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    .wrapper_languages {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      .item {
+        display: flex;
+        align-items: center;
+
+        img {
+          width: 35px;
+          margin-right: 14px;
+        }
+      }
+    }
+  }
+
+
+  .details {
+    .wrapper_details {
+      span {
+        font-size: 14px;
+        color: #100F0F;
+
+        &+span {
+          color: #989FB2;
+        }
+      }
+    }
+  }
+
+
+}

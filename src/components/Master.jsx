@@ -1,11 +1,15 @@
 import React, { Component } from "react";
-import '@styles/master.scss';
-import AppReact from "@/components/AppReact/AppReact.jsx";
-
+import '@styles/index.scss'
+import Left_Section from "@/components/Left_Section/Left_Section.jsx";
+import Right_Section from "@/components/Right_Section/Right_Section.jsx";
 
 export default class Master extends React.PureComponent {
     render() {
-        return ( <AppReact /> );
+        return (
+            <>
+            <Left_Section />
+            <Right_Section />
+            </>
+        );
     }
 }
-
