@@ -1,0 +1,126 @@
+@media only screen and (max-width: 1024px) {
+    .mobile_icons {
+
+        .burger_menu {
+            opacity: 1;
+        }
+
+
+    }
+
+    .left_section {
+        z-index: 1;
+        position: absolute;
+        left: -420px;
+        top: 0;
+        opacity: 0;
+    }
+
+    .right_section {
+        border-radius: 30px;
+
+        .job_title {
+            margin-top: 70px;
+            margin-bottom: 70px;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .right_section {
+        width: 100%;
+
+
+        .job_title {
+            text-align: center;
+            margin: 50px 0;
+            font-size: 25px;
+        }
+
+
+        .right_wrapper {
+            .experience {
+                .experience_wrapper {
+                    gap: 45px;
+
+                    .item {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 15px;
+                    }
+                }
+            }
+        }
+
+    }
+
+}
+
+@media only screen and (max-width: 425px) {
+    .title_right_section::before {
+        left: -36px !important;
+    }
+
+    .mobile_icons {
+        .close_icon {
+            right: -320px;
+            top: 0px;
+
+        }
+    }
+
+    .left_section {
+        width: 100%;
+        max-width: unset;
+
+        .left_wrapper {
+            padding: 30px;
+        }
+    }
+
+    .right_section {
+        .job_title {
+            span {
+                display: block;
+            }
+        }
+
+
+        .right_wrapper {
+            margin-left: 43px;
+            padding-left: 21px;
+
+            .skills {
+                .wrapper_skills {
+                    .skills_img {
+                        grid-template-columns: repeat(2, 1fr);
+                        gap: 15px;
+                    }
+
+                    .wrapper_description {
+                        .description_skills {
+                            font-size: 20px;
+                            gap: 30px;
+                        }
+
+                    }
+                }
+            }
+
+
+            .latest_projects .wrapper_projects .mySwiper .swiper-element a img {
+                width: 300px;
+            }
+
+        }
+
+    }
+}
+
+
+@media only screen and (min-width: 1024px) {
+    .mobile_icons {
+        display: none;
+    }
+}

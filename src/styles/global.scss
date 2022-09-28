@@ -88,3 +88,20 @@ a {
   }
 
 }
+
+
+.show_left_section {
+  left: 0;
+  opacity: 1;
+  transition: .4s ease-in-out;
+}
+
+.opacity_1 {
+  opacity: 1 !important;
+  transition: .3s ease-in-out !important;
+}
+
+.opacity_0 {
+  opacity: 0 !important;
+  transition: .3s ease-in-out !important;
+}

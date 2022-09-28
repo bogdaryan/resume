@@ -17,11 +17,13 @@ import scss from '@assets/scss'
 import css from '@assets/css'
 import html from '@assets/html'
 import python from '@assets/python'
-
 import site_1 from '@assets/site_1'
 import site_2 from '@assets/site_2'
 import site_3 from '@assets/site_3'
 import site_4 from '@assets/site_4'
+import burger from '@assets/burger'
+import close from '@assets/close'
+
 
 
 export {
@@ -47,5 +49,7 @@ export {
   site_1,
   site_2,
   site_3,
-  site_4
+  site_4,
+  burger,
+  close
 }

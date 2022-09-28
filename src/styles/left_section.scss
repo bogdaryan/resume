@@ -1,6 +1,37 @@
+.mobile_icons {
+  display: flex;
+  align-items: center;
+  z-index: 999;
+  position: absolute;
+  left: 35px;
+  top: 30px;
+
+
+  .burger_menu,
+  .close_icon {
+    cursor: pointer;
+    opacity: 0;
+    transition: .3s ease-in-out;
+  }
+
+  .burger_menu {
+    width: 20px;
+  }
+
+  .close_icon {
+    position: absolute;
+    right: -285px;
+    top: -10px;
+    width: 30px;
+  }
+}
+
+
+
 .left_section {
   max-width: 356px;
   background-color: #F7F9FC;
+  transition: .4s ease-in-out;
 
   .left_wrapper {
     padding: 50px;
