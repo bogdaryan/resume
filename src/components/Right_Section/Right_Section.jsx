@@ -230,7 +230,7 @@ export default class Right_Section extends React.PureComponent {
 
                                 <SwiperSlide className="swiper-element" >
 
-                                    <a href="https://bogdaryan.github.io/resume/">
+                                    <a href="https://bogdaryan.github.io/resume/ ">
                                         <img src={site_4} />
                                     </a>
                                 </SwiperSlide>
