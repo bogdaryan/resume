@@ -13,7 +13,7 @@ import {
 export default class Left_Section extends React.PureComponent {
     render() {
         return (
-            <section className="left_section" >
+            <section className="left_section animate__animated animate__fadeInLeft" >
                 <div className="left_wrapper" >
                     <section className="info_section" >
                         <span id="img_resume" style={{ 'backgroundImage': `url(${img_resume})` }} ></span>
