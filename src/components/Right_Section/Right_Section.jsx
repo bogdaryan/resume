@@ -54,11 +54,9 @@ export default class Right_Section extends React.PureComponent {
                                     </div>
                                 </div>
                                 <p className="description" >
-                                    Мои первые шаги в сфере программирования.
-                                    Проходил не оплачиваемую интернатуру в веб-студии UpSite,
-                                    сейчас это уже Up-Sales.
-                                    Осуществлял вёрстку сайтов по макетам,
-                                    исправлял ошибки в вёрстке уже существующих проектов.
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+                                    ' Minus saepe amet magnam maiores ut delectus rem quam, atque, 
+                                    consectetur officiis modi nulla. Eaque modi aut a. Natus rem in qui.
                                 </p>
                             </div>
 
@@ -75,11 +73,9 @@ export default class Right_Section extends React.PureComponent {
                                     </div>
                                 </div>
                                 <p className="description" >
-                                    А в этой компании я метил на Junior React.
-                                    Как только пришёл, дали работу верстать с использованием React.
-                                    Кроме реакта, я верстал и добавлял темы для site builder
-                                    (что-то похожее на Wix). Еще занимался немного тестами с
-                                    использованием Mocha, Chai
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+                                    ' Minus saepe amet magnam maiores ut delectus rem quam, atque, 
+                                    consectetur officiis modi nulla. Eaque modi aut a. Natus rem in qui.
                                 </p>
                             </div>
 
@@ -95,11 +91,9 @@ export default class Right_Section extends React.PureComponent {
                                     </div>
                                 </div>
                                 <p className="description" >
-                                    С другом основали команду по арбитражу трафика,
-                                    я был тимлидом. Занимались трафиком в
-                                    FaceBook. В моменте было 20 сотрудников и офис в Стамбуле.
-                                    Очень редко, по возможности - я верстал простые лендинги,
-                                    для товара на который мы лили трафик
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+                                    ' Minus saepe amet magnam maiores ut delectus rem quam, atque, 
+                                    consectetur officiis modi nulla. Eaque modi aut a. Natus rem in qui.
                                 </p>
                             </div>
 
